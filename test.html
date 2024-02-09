@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .t1{
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            position: relative;
+            background-image: url(walapre.jpg);
+            background-size: cover;
+            margin: 10px;
+        }
+        .x1{
+            padding: 20px;
+            margin: 10px;
+            position: absolute;
+            background-color: red;
+            text-align: center;
+            color: white;
+            border-radius: 40px;
+            z-index: 1;
+        }
+        .x2{
+            padding: 20px;
+            margin: 10px;
+            position: absolute;
+            background-color: blueviolet;
+            color: white;
+            text-align: center;
+            border-radius: 40px;
+            z-index: 2;
+            left: 30px;
+            top: 20px;
+        }
+        body{
+            height: 3000px;
+        }
+        .fx{
+            width: 25px;
+            height: 25px;
+            background-color: red;
+            right: 0px;
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div class="fx">
+
+    </div>
+
+
+    <div class="t1">
+        <div class="x2">jj</div>
+        <div class="x1">xy</div>
+    </div>
+    <div class="t1">
+        <div class="x2">jj</div>
+        <div class="x1">xy</div>
+    </div>
+</body>
+</html>
